@@ -1,0 +1,13 @@
+#root {
+  width: 100%;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  gap: 3rem;
+}
