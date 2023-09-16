@@ -1,6 +1,7 @@
 import imgFondo from "./assets/fondo.png";
 import "./MainContent.css";
 
+// Agregar un modelo 3d del tacho ya terminado
 function MainContent() {
   return (
     <main className="main">

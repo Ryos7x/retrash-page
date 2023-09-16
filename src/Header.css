@@ -10,8 +10,9 @@
 }
 
 .logo {
-  display: fixed;
+  display: flex;
   height: 2rem;
+  align-items: center;
 }
 
 .navigation {
@@ -31,6 +32,10 @@
   transition: 0.5s;
 }
 
+.navigation-link:hover {
+  color: #12bd0f;
+}
+
 .navigation-link::after {
   content: "";
   position: absolute;
@@ -48,6 +53,10 @@
   transform: scaleX(100%);
 }
 
+.nav-menu {
+  display: none;
+}
+
 @media screen and (max-width: 450px) {
   .navigation {
     display: none;
@@ -57,5 +66,12 @@
 @media screen and (max-width: 960px) {
   .header {
     padding: 0 1.5rem;
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .nav-menu {
+    display: block;
   }
 }

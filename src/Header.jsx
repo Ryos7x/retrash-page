@@ -1,15 +1,15 @@
-import { useState } from "react";
-import retrashLogo from "./assets/retrash.png";
 import "./Header.css";
 
-// Hacer que desaparezca la navegacion en mobile !
-// Hacer que el padding del header coincida con el de main-section
-// Hacer que aparezca la navegacion al hacerse mas grande !
+// Hacer un menu en el navegador responsive
+// Agregar imagen propia de ReTrash
+// Agregar imágenes de bell
+// Consultar con Lucho que nuevos pasos realizar
 
 function Header() {
   return (
     <header className="header">
-      <h2 className="logo">ReTrash</h2>
+      <img src="src/assets/logo.svg" alt="logo" className="logo" />
+      <img src="src/assets/nav-menu.svg" alt="menu" className="nav-menu" />
       <nav class="navigation">
         <a class="navigation-link" href="#">
           INICIO
